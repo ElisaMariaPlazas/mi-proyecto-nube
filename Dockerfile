@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# CAMBIA: el puerto en el que escucha tu aplicación
+# CAMBIA: el puerto en el que escucha tu aplicación.
 EXPOSE 8080
 
 # CAMBIA: el comando que arranca tu aplicación.
